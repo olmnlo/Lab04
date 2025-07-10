@@ -14,6 +14,7 @@ public class Main {
         System.out.printf("circle calculateArea(): %.2f\n",circle.calculateArea());
         System.out.printf("circle calculateCircumference(): %.2f\n", circle.calculateCircumference());
 
+        System.out.println();
         System.out.println("----------------------Rectangle------------------------");
         Rectangle rectangle = new Rectangle(5, 7);
 //        Rectangle rectangle = new Rectangle(-1, 3); //this will show you error msg only
@@ -27,6 +28,7 @@ public class Main {
         System.out.printf("rectangle calculateArea(): %.2f\n",rectangle.calculateArea());
         System.out.printf("rectangle calculateCircumference(): %.2f\n", rectangle.calculateCircumference());
 
+        System.out.println();
         System.out.println("--------------------Triangle--------------------");
         Triangle triangle = new Triangle(3,3);
 //        Triangle triangle = new Triangle(-10,3); //this will show you error msg only
