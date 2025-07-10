@@ -4,6 +4,7 @@ import shapes.Triangle;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("----------------------Circle------------------------");
         Circle circle = new Circle(4);
 //        Circle circle = new Circle(-4); //this will show you error msg only
         System.out.println(circle);
